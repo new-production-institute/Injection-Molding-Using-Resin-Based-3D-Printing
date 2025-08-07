@@ -4,7 +4,7 @@ This repository documents an ongoing project exploring low-cost injection moldin
 
 ## Current Status
 
-We are still in the process of setting up and learning how to use the injection molding machines available at the Open Lab. In parallel, we are testing the suitability of SLA-printed molds and evaluating different materials and printing parameters.
+We are still in the process of setting up and learning how to use the injection molding machines available at the Open Lab. In parallel, we are testing the suitability of MSLA-printed molds and evaluating different materials and printing parameters.
 
 A full documentation including tutorials, example projects, and mold design guidelines will be added here soon.
 
