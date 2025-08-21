@@ -6,6 +6,8 @@ This repository documents an ongoing project exploring low-cost injection moldin
 
 We are still in the process of setting up and learning how to use the injection molding machines available at the Open Lab. In parallel, we are testing the suitability of MSLA-printed molds and evaluating different materials and printing parameters.
 
+[MSLA printed phonecase mold](printed_phone_case.jpg)
+
 A full documentation including tutorials, example projects, and mold design guidelines will be added here soon.
 
 Stay tuned!
