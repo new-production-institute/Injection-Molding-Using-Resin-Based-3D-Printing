@@ -1,17 +1,60 @@
-# Hands on guide: Creating an example mold with CAD
-This guide will walk you through the process of creating a simple injection mold to give you an idea of the workflow and how you get started.
+# Hands-On Guide: Creating an Example Mold with CAD
 
-In this guide, we will use the non-commercial software Fusion 360. Feel free to use your favorite CAD programm.
+This guide will walk you through the process of creating a simple injection mold, giving you an idea of the workflow and how to get started.
 
-## 1. Find a test object
-For this guide we will work with this drone propeller. You can find its stl and step model [here](Mold%20Examples/Prop%20Mold).
+We will use the **non-commercial software Fusion 360** for this example, but feel free to use your preferred CAD program.
+
+---
+
+## 1. Find a Test Object
+
+For this guide, we will work with a **drone propeller**. You can find its STL and STEP models [here](Mold%20Examples/Prop%20Mold).
 
 ![prop picture](Pictures/prop.png)
 
-If you allready got your model in your CAD software, perfect! Otherwiese, import it into your software. If your model is in an stl format, you need to convert it, so you can work with it in your cad software.
+If you already have your model in your CAD software, perfect! Otherwise, import it.
 
-## Creating the mold
-Here you can see, how we created our mold arround the prop.
+> ⚠️ If your model is in STL format, you may need to **convert it to a solid body** in your CAD software before proceeding.
+
+---
+
+## 2. Creating the Body of the Mold
+
+Here is an example of how we created the mold body around the propeller:
 
 ![sketch1](Pictures/sketch1.png)
 ![body1](Pictures/body1.png)
+
+---
+
+## 3. Boolean Operations and Cutting
+
+At first glance, the next logical step might seem to:
+
+1. Perform a boolean operation to subtract the propeller from the mold body.
+2. Split the mold into two halves.
+3. Add a chamfered entry for the plastic and a vent hole.
+
+However, **it’s not that simple in this case**.
+
+The propeller has complex geometry, and if we cut the mold in the middle arbitrarily, some parts of the propeller may get stuck and be impossible to remove. This issue is illustrated below:
+
+![open\_mold](Pictures/open_mold.png)
+
+---
+
+### 3.1 Cutting Along the Correct Plane
+
+To avoid this problem, we always need to cut the mold **along the central plane of the propeller**:
+
+![open\_mold2](Pictures/open_mold2.png)
+
+To achieve this, we:
+
+1. Created a **reference surface** that passes through the middle of the propeller.
+2. Split the mold body along this surface.
+3. Performed the boolean subtraction.
+
+> Note: This step is more advanced than what most beginner molds require. It is included here to demonstrate how sometimes you need creative solutions to make a mold work properly.
+
+---
