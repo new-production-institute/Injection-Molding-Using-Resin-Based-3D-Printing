@@ -58,3 +58,19 @@ To achieve this, we:
 > Note: This step is more advanced than what most beginner molds require. It is included here to demonstrate how sometimes you need creative solutions to make a mold work properly.
 
 ---
+
+## Designing the gate and the sprue
+Now we need to design the hole, through which we later inject the plastic. This hole is called gate. The channel in to the cavity is called sprue. 
+When we desin the gate, we need to pay attention to some details. 
+
+Depending on the orientation of the cut, we need to design the sprue in a cone shape. If the mold cuts the sprue, we can ignore the angle.
+
+![open\_mold2](Pictures/Injection_hole_straight.png)
+
+If not we need the cone shape, so its easier to remove the plastic from the sprue.
+
+![open\_mold2](Pictures/Angled_hole.png)
+
+Also we need to champher the sprue, so the nozzle has a better contact to the mold.
+
+
