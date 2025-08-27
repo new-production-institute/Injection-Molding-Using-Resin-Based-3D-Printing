@@ -99,11 +99,3 @@ This section provides practical advice to help you get the best results when pri
 
 - **Support placement**:  
   Add supports only on non-critical surfaces to reduce post-processing and avoid damaging functional mold areas.  
-
-### Adding Visuals
-You can make this section clearer by adding diagrams or images, for example:  
-- Correct vs. incorrect mold orientation in the slicer.  
-- Example of good support placement.  
-- Finished mold examples.  
-
----

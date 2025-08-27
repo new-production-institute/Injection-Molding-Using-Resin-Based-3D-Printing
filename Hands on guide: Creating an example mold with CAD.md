@@ -83,5 +83,9 @@ When designing them, keep in mind:
 Finally, export the mold halves as **STL files** from your CAD program. These files can then be 3D printed, CNC milled, or sent to a service bureau for fabrication.
 
 ---
+## 6. The final result
+![sprue angled](Pictures/finished_prop_mold.png)
 
+![sprue angled](Pictures/finished_prop_mold_v2.png)
 
+![sprue angled](Pictures/finish_prop_mold_v3.png)
