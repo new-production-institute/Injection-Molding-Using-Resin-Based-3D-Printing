@@ -43,7 +43,7 @@ The general workflow for resin printing looks like this:
 
 4. **Prepare the Printer**  
    - Fill the resin vat with the chosen resin.  
-   - Level the build plate if necessary.  
+   - Level the build plate if necessary. These [leveling prints](https://cults3d.com/en/3d-model/tool/j3d-tech-s-bed-of-calibration) and [this video](https://www.youtube.com/watch?v=vUhc_F2-7YA&t=77s) are everything you need to do that properly. 
 
 5. **Print the Mold**  
    - Start the print and monitor the first layers to ensure adhesion.  
